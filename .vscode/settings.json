@@ -28,8 +28,17 @@
       "source.fixAll": true, // 修复prettier错误
   },
   "[vue]": {"editor.defaultFormatter": "octref.vetur"},
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "vetur.format.defaultFormatterOptions": {"wrap_attributes": "auto"}
+  "vetur.format.defaultFormatterOptions":{
+    "js-beautify-html": {
+      "wrap_attributes": "auto" // 格式化vue Template代码段
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  }
 }
 
 

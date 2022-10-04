@@ -17,6 +17,6 @@
   "parser": "babylon",
   "requireConfig": false,
   "stylelintIntegration": false,
-  "trailingComma": "es5",
+  "trailingComma": "none",
   "tslintIntegration": false
 }
