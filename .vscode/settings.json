@@ -1,0 +1,35 @@
+// Workspace settings
+{
+  // The following will hide the js and map files in the editor
+  "files.exclude": {
+    ".vscode": true,
+    "build": true,
+    "prettier.config.js": true,
+    "wecode.json": true
+  },
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true, // 状态栏中显示eslint，方便查看eslint服务是否正常运行
+  "editor.mouseWheelZoom": true,
+  "editor.tabSize": 2, // 重新设定tabsize
+  "editor.renderIndentGuides": true,
+  "eslint.validate": ["javascript", "vue", "html"],
+  "eslint.run": "onType",
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".vue",
+          ".jsx",
+          ".tsx"
+      ]
+  },
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll": true, // 修复prettier错误
+  },
+  "[vue]": {"editor.defaultFormatter": "octref.vetur"},
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {"wrap_attributes": "auto"}
+}
+
+
