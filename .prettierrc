@@ -10,7 +10,6 @@
   "endOfLine": "auto",
   "eslintIntegration": false,
   "proseWrap": "preserve",
-  "arrowParens": "avoid",
   "htmlWhitespaceSensitivity": "ignore",
   "ignorePath": ".prettierignore",
   "jsxBracketSameLine": false,
